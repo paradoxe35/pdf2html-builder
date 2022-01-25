@@ -22,7 +22,7 @@ HOME_PATH=$(cd ~/ && pwd)
 LINUX_ARCH="$(lscpu | grep 'Architecture' | awk -F\: '{ print $2 }' | tr -d ' ')"
 POPPLER_SOURCE="http://poppler.freedesktop.org/poppler-0.33.0.tar.xz"
 FONTFORGE_SOURCE="https://github.com/coolwanglu/fontforge.git"
-PDF2HTMLEX_SOURCE="https://github.com/coolwanglu/pdf2htmlEX.git"
+PDF2HTMLEX_SOURCE="https://github.com/paradoxe35/pdf2htmlEX.git"
 
 if [ "$LINUX_ARCH" == "x86_64" ]; then
  
